@@ -1,0 +1,90 @@
+@media(max-width: 1200px) {
+    .container {
+        box-sizing: border-box;
+        padding: 0 20px;
+    }
+    .header {
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .header__rt {
+        margin-top: 20px;
+        width: 100%;
+        padding-left: 50px;
+        box-sizing: border-box;
+        font-size: 25px;
+    }
+    .main {
+        margin-top: 50px;
+        padding-top: 50px;
+    }
+    .main__soc-networks {
+        top: -100px;
+        left: 50%;
+        transform: translateX(-50%);
+        flex-direction: row;
+    }
+    .main__soc-network {
+        margin: 0 10px;
+    }
+    .line {
+        display: none;
+    }
+}
+@media(max-width: 768px) {
+    .header__rt {
+        font-size: 18px;
+        margin-top: 10px;
+        padding-left: 0;
+    }
+    .header__lt {
+        text-align: center;
+    }
+    .header__name {
+        font-size: 32px;
+        margin-bottom: 10px;
+    }
+    .header__note {
+        font-size: 15px;
+    }
+    .main__caption {
+        max-width: 190px;
+        line-height: 50px;
+        font-size: 34px;
+        margin-bottom: 25px;
+    }
+    .excursion-item {
+        max-width: 150px;
+        height: 180px;
+    }
+}
+@media(max-width: 450px) {
+    body {
+        background-image: unset;
+    }
+    .header__rt {
+        text-align: center;
+    }
+    .main__caption {
+        max-width: unset;
+        text-align: center;
+        font-size: 30px;
+        line-height: 47px;
+    }
+    .excursion-item {
+        padding-bottom: 15px;
+        height: unset;
+        max-width: unset;
+        width: 100%;
+        align-items: center;
+    }
+    .excursion-item__text {
+        max-width: unset;
+        text-align: center;
+        font-size: 25px;
+    }
+    .footer {
+        padding: 15px 0;
+        margin-top: 0;
+    }
+}
